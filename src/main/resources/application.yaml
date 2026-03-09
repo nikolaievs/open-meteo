@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: open-meteo
+server:
+  servlet:
+    context-path: /api
+
+config:
+  openmeteo:
+    url: https://api.open-meteo.com
+  caches:
+    weather:
+      ttl: 60S
